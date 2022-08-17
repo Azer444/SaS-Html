@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nike {
+  background-color: black;
+}
+#nike .nike-logo img {
+  width: 270px;
+  height: 150px;
+}
+#nike .about {
+  margin-top: 45px;
+}
+#nike .about a {
+  font-size: 24px;
+  text-decoration: none;
+  color: floralwhite;
+  padding: 10px;
+}
+#nike .about a:hover {
+  color: darkcyan;
+}
+
+#slider {
+  background-color: aliceblue;
+  width: 100%;
+  height: 600px;
+}
+#slider img {
+  width: 650px;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+#slider .button {
+  background-color: darkolivegreen;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#slider .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  border-radius: 25px;
+}
+#slider .button1:hover {
+  background-color: darkolivegreen;
+  color: white;
+}
+#slider h3 {
+  margin-top: 150px;
+}
+
+#shop {
+  width: 100%;
+  height: 650px;
+  background-color: darkgray;
+}
+#shop .imagesss {
+  border-radius: 25px;
+}
+#shop .imagesss {
+  background-color: slategrey;
+}
+#shop .imagesss img {
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+}
+#shop .imagess {
+  background-color: slategrey;
+  margin-top: 100px;
+  border-radius: 25px;
+}
+#shop .card p:nth-child(1) {
+  font-size: 24px;
+  margin-left: 100px;
+}
+#shop .card p:nth-child(2) {
+  font-size: 24px;
+  margin-left: 150px;
+}
+#shop .button {
+  background-color: darkolivegreen;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#shop .button1 {
+  margin-left: 110px;
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  border-radius: 25px;
+}
+#shop .button1:hover {
+  background-color: gray;
+  color: white;
+}
+#shop img {
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+}
+
+#nikee {
+  width: 100%;
+  height: 850px;
+  background-image: url(../scss/images/NikeCNY2019_DB_CNY_BS_FIN_hd_1600.png);
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
